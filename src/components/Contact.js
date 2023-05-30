@@ -23,4 +23,38 @@ function Contact() {
     setMessageError(false);
   };
 
+  // Validate email format using regex
+  const validateEmail = (email) => {
+    return /\S+@\S+\.\S+/.test(email);
+  };
+
+  // Handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    let valid = true;
+
+    // Validate input fields and set errors if necessary
+    if (name.length <= 5) {
+      setNameError(true);
+      valid = false;
+    }
+    if (!validateEmail(email)) {
+      setEmailError(true);
+      valid = false;
+    }
+    if (message.length < 150) {
+      setMessageError(true);
+      valid = false;
+    }
+    // If all fields are valid, log form data and reset inputs
+    if (valid) {
+        console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+        setName("");
+        setEmail("");
+        setMessage("");
+        setMessageSent(true);
+      }
+    };
+
+    
 }
