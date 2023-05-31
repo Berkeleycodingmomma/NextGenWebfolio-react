@@ -21,7 +21,7 @@ function About() {
               <Card>
                 <Card.Body>
                   <Card.Title className="text-center mb-4">
-                    About Thomas Calle
+                    About Amanda Gray
                   </Card.Title>
                   <Card.Text>
                 fsgfsgdf

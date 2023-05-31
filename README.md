@@ -127,7 +127,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
 
-### Copyright © 2023 [Thomas Calle](https://github.com/ThomasCalle)
+### Copyright © 2023 [Amanda Gray](https://github.com/Berkeleycodingmomma)
 ```md
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -151,6 +151,8 @@ SOFTWARE.
 ## Author
 
 Follow me on Github at [Amanda Gray](https://github.com/Berkeleycodingmomma). 
+
+Find me on Linkedin at [Amanda Gray](https://www.linkedin.com/in/amanda-gray-121a6a254/)
 
 ## Acknowledgments
 
