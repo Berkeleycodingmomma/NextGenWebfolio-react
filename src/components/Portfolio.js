@@ -73,3 +73,24 @@ function Portfolio() {
         githubLink:
           "",
       },
+
+    ].map((project, index) => (
+        // Div container for each project
+        <div className="col-12 col-md-6 col-lg-4 my-2" key={index}>
+          {/* <h2>{project.title}</h2> */}
+          <Project
+            title={project.title}
+            description={project.description}
+            imgSrc={project.imgSrc}
+            deployedLink={project.deployedLink}
+            githubLink={project.githubLink}
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+);
+}
+// Export Portfolio
+export default Portfolio;
