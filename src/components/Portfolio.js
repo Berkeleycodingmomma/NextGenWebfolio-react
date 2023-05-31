@@ -42,36 +42,36 @@ function Portfolio() {
         description: "Third-Party API Sceduler ft. Day.js",
         imgSrc: WorkDayPlanner,
         deployedLink:
-          "",
+          "https://berkeleycodingmomma.github.io/work-day-scheduler/",
         githubLink:
-          "",
+          "https://github.com/Berkeleycodingmomma/work-day-scheduler",
       },
       {
         title: "Java Script: WEB API Quiz",
         description: "Dynamically updated HTML & CSS Web API quiz game.",
         imgSrc: WebAPI,
         deployedLink:
-          "",
+          "https://berkeleycodingmomma.github.io/api-code-quiz/",
         githubLink:
-          "",
+          "https://github.com/Berkeleycodingmomma/api-code-quiz",
       },
       {
-        title: "project one",
+        title: "Dirty Dozen Team Project",
         description: "Interactive Front-End Application Guide ?????",
         imgSrc: ,
         deployedLink:
-          "",
+          "https://berkeleycodingmomma.github.io/dirty-dozen-team-project/",
         githubLink:
-          "",
+          "https://github.com/Berkeleycodingmomma/dirty-dozen-team-project",
       },
       {
         title: "Weather Dashboard",
         description: "Server-Side APIs: (5) Day Weather Dashboard.",
         imgSrc: Weather,
         deployedLink:
-          "",
+          "https://berkeleycodingmomma.github.io/check-the-forecast/",
         githubLink:
-          "",
+          "https://github.com/Berkeleycodingmomma/check-the-forecast",
       },
 
     ].map((project, index) => (
