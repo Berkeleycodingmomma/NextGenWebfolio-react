@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
@@ -22,12 +22,10 @@ function App() {
         {/* <Header/> */}
         <div className="container mt-5">
           <Routes>
-            <Route path="/https://github.com/Berkeleycodingmomma/" element={<About />} />
-            {/* <Route path="/https://github.com/Berkeleycodingmomma/home" element={<Home />} /> */}
-            <Route path="/https://github.com/Berkeleycodingmomma/about" element={<About />} />
-            <Route path="/https://github.com/Berkeleycodingmomma/portfolio" element={<Portfolio />} />
-            <Route path="/https://github.com/Berkeleycodingmomma/contact" element={<Contact />} />
-            <Route path="/https://github.com/Berkeleycodingmomma/resume" element={<Resume />} />
+            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/about/" element={<About />} />
+            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/contact" element={<Contact />} />
+            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/resume" element={<Resume />} />
+            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/" element={<Portfolio />} />
           </Routes>
         </div>
         <Footer />

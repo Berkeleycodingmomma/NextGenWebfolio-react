@@ -61,9 +61,9 @@ const socials = [
           </section>
           <section className="form-footer">
           <h5 className="designer-text">Designed by Amanda Gray</h5>
-            <p>
+            {/* <p> */}
             <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
-            </p>
+            {/* </p> */}
           </section>
         </div>
       </footer>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navigation from "../src/components/Navigation";
+import Navigation from "./Navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChessKnight } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row, Col } from "react-bootstrap";
@@ -21,7 +21,7 @@ function Header() {
                   style={{ color: "#white" }}
                 />
                 <Link
-                  to="/7homas7he7ank-react-portfolio/"
+                  to="/Berkeleycodingmomma/NextGenWebfolio-react/"
                   className="text-white text-decoration-none"
                   style={{ margin: "0" }}
                 >
@@ -42,3 +42,5 @@ function Header() {
       </>
     );
   }
+
+export default Header;

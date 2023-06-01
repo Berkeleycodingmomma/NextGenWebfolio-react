@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../style/Resume.css";
-import PDF from "../documentation/AmandaGrayResumeJune(2023).pdf";
+// import PDF from "../documentation/AmandaGrayResumeJune(2023).pdf";
 
 function Resume() {
     return (
@@ -12,12 +12,13 @@ function Resume() {
             <Col className="text-center">
               <h1>Resume</h1>
               <hr className="star-primary" />
-              <Button variant="dark" href={PDF} download>
+              {/* <Button variant="dark" href={PDF} download> */}
+              <Button variant="dark" download>
                 Download Resume
               </Button>
             </Col>
           </Row>
-
+          <Row>
           <Col>
             <h3>Technical Skills</h3>
             <hr className="star-secondary" />
@@ -55,4 +56,9 @@ function Resume() {
             </div>
           </Col>
         </Row>
-        <Row>
+        </Container>
+      </section>
+    );
+}
+
+export default Resume;

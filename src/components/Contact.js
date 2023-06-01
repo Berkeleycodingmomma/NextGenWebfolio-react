@@ -1,5 +1,5 @@
-// import React, { useState } from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import React, { useState } from 'react';
+import { Container, Row, Col, Card } from "react-bootstrap";
 import "../style/Contact.css";
 
 function Contact() {
@@ -7,10 +7,10 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  // const [nameError, setNameError] = useState(false);
-  // const [emailError, setEmailError] = useState(false);
-  // const [messageError, setMessageError] = useState(false);
-  // const [messageSent, setMessageSent] = useState(false);
+  const [nameError, setNameError] = useState(false);
+  const [emailError, setEmailError] = useState(false);
+  const [messageError, setMessageError] = useState(false);
+  const [messageSent, setMessageSent] = useState(false);
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -56,5 +56,43 @@ function Contact() {
       }
     };
 
-    
+    return (
+      // About section
+      <section id="about" className="py-5">
+        <h1 className="about-heading">Contact</h1>
+        <Container>
+          <Row>
+            <Col
+              xs={12}
+              md={4}
+              className="d-flex justify-content-center align-items-center mb-4 mb-md-0"
+            >
+              {/* <Image src={avatar} rounded fluid className="about-image" /> */}
+            </Col>
+            <Col xs={12} md={8}>
+              <Card>
+                <Card.Body>
+                  <Card.Title className="text-center mb-4">
+                    How to contact me
+                  </Card.Title>
+                  <Card.Text>
+                fsgfsgdf
+                fgsdfg
+                fdgsfdfgssgfgsdf    
+                 </Card.Text>
+
+                 <Card.Text>
+                 fsgfsgdf
+                fgsdfg
+                fdgsfdfgssgfgsdf 
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
 }
+
+export default Contact;

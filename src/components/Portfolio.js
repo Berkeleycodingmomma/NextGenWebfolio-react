@@ -1,11 +1,12 @@
 import React from "react";
 import Project from "./Project";
-import WorkDayPlanner from "../images/WorkDayPlanner";
-import WebAPI from "../images/WebAPI";
-import Weather from "../images/Weather";
-import LifeInTheSaddleBlog from "../images/LifeInTheSaddleBlog";
-import DirtyDozenTeamProject from "../images/DirtyDozenTeamProject";
-import RecipeBox from "../images/RecipeBox";
+// import WorkDayPlanner from "../images/WorkDayPlanner";
+import WorkDayPlanner from "../images/WorkDayPlanner.png"
+import WebAPI from "../images/WebAPI.png";
+import Weather from "../images/Weather.png";
+import LifeInTheSaddleBlog from "../images/LifeInTheSaddleBlog.png";
+import DirtyDozenTeamProject from "../images/DirtyDozenTeamProject.png";
+import RecipeBox from "../images/RecipeBox.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Portfolio.css";
 
