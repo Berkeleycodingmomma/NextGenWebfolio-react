@@ -1,12 +1,11 @@
 import React from "react";
 import Project from "./Project";
-import WorkDayPlanner from "../images/WorkDayPlanner.GIF";
-import WebAPI from "../images/WebAPI_.GIF";
-import Weather from "../images/Weather.GIF";
-import LifeInTheSaddleBlog from "../images/ Blog.GIF";
-
-
-
+import WorkDayPlanner from "../images/WorkDayPlanner";
+import WebAPI from "../images/WebAPI";
+import Weather from "../images/Weather";
+import LifeInTheSaddleBlog from "../images/LifeInTheSaddleBlog";
+import DirtyDozenTeamProject from "../images/DirtyDozenTeamProject";
+import RecipeBox from "../images/RecipeBox";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Portfolio.css";
 
@@ -29,17 +28,17 @@ function Portfolio() {
         
     },
     {
-        title: "PersonalPortfolio",
-        description: "Built On Advanced CSS",
-        imgSrc: PersonalPortfolio,
+        title: "Recipe Box",
+        description: "Interactive Full-Stack Project",
+        imgSrc: RecipeBox,
         deployedLink:
-          "https://berkeleycodingmomma.github.io/personal-portfolio/",
+          "https://recipesbox.herokuapp.com/",
         githubLink:
-          "https://github.com/Berkeleycodingmomma/personal-portfolio",
+          "https://github.com/Berkeleycodingmomma/recepie-box",
       },
       {
         title: "Online Workday Planner",
-        description: "Third-Party API Sceduler ft. Day.js",
+        description: "Third-Party API Scheduler Day.js",
         imgSrc: WorkDayPlanner,
         deployedLink:
           "https://berkeleycodingmomma.github.io/work-day-scheduler/",
@@ -57,8 +56,8 @@ function Portfolio() {
       },
       {
         title: "Dirty Dozen Team Project",
-        description: "Interactive Front-End Application Guide ?????",
-        imgSrc: ,
+        description: "Interactive Front-End Application",
+        imgSrc: DirtyDozenTeamProject,
         deployedLink:
           "https://berkeleycodingmomma.github.io/dirty-dozen-team-project/",
         githubLink:
