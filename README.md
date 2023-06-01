@@ -80,6 +80,82 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 4. Fill out and submit the contact form provided in the Contact section.
 5. Download the developer's resume from the Resume section for further reference.
 
+## Code Snippets
+#
+```sh
+
+function Portfolio() {
+    return (
+          // Portfolio container
+      <div className="portfolio-wrapper">
+        <h1 className="portfolio-title">Portfolio</h1>
+        <div className="container">
+          <div className="row">
+            {[
+    {
+    title: "Life in the Saddle Blog",
+    description: "CMS-Style Model View Controller Blog",
+    imgSrc: LifeInTheSaddleBlog,
+    deployedLink:
+        "https://mysterious-fortress-89318.herokuapp.com/",
+    githubLink:
+        "https://github.com/Berkeleycodingmomma/cms-style-mvc-tech-blog",
+        
+    },
+
+**ABOVE: The Portfolio function returns a container that displays a portfolio title and a set of items, each containing information about a project such as its title, description, image source, deployed link, and GitHub link.
+
+```
+#
+
+```sh
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+      <Header/>
+        {/* <Navigation /> */}
+        {/* <Header/> */}
+        <div className="container mt-5">
+          <Routes>
+            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/about/" element={<About />} />
+            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/contact" element={<Contact />} />
+            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/resume" element={<Resume />} />
+            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/" element={<Portfolio />} />
+          </Routes>
+        </div>
+        <Footer />
+      </Router>
+    </div>
+  );
+}
+// Render the Footer component
+
+**ABOVE: The App function represents the main component of the application, which sets up the routing functionality using React Router. It includes a header, a container for different routes, and a footer component. The routes are defined using <Route> elements, mapping specific paths to corresponding components such as About, Contact, Resume, and Portfolio.
+
+```
+#
+
+```sh
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import "./style/index.css";
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+    <App />
+);
+
+**ABOVE: 
+The App function is the core component that utilizes React Router for navigation. It consists of a header, a container for different routes, and a footer. Routes are defined using <Route> elements, linking specific paths to their corresponding components.
+
+```
+#
+
 ## Deployed GitHub-Pages Application Link:
 [Deployed Application Link:]()
 
