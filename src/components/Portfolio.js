@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "./Project";
-// import WorkDayPlanner from "../images/WorkDayPlanner";
 import WorkDayPlanner from "../images/WorkDayPlanner.png"
 import WebAPI from "../images/WebAPI.png";
 import Weather from "../images/Weather.png";

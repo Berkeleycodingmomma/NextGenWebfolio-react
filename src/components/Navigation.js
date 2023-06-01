@@ -12,9 +12,7 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
-                          {/* <Nav.Link as={Link} to="NextGenWebfolio-react/home" className="fs-5">Home</Nav.Link> */}
                 <Nav.Link as={Link} to="/Berkeleycodingmomma/NextGenWebfolio-react/about/" className="fs-5 nav-link-highlight shadow-lg">About Me</Nav.Link>
-                {/* <Nav.Link as={Link} to="/Berkeleycodingmomma/NextGenWebfolio-react/portfolio" className="fs-5 nav-link-highlight shadow-lg ">Portfolio</Nav.Link> */}
                 <Nav.Link as={Link} to="/Berkeleycodingmomma/NextGenWebfolio-react/contact" className="fs-5 nav-link-highlight shadow-lg ">Contact</Nav.Link>
                 <Nav.Link as={Link} to="/Berkeleycodingmomma/NextGenWebfolio-react/resume" className="fs-5 nav-link-highlight shadow-lg ">Resume</Nav.Link>
               </Nav>
