@@ -20,9 +20,7 @@ function About() {
             <Col xs={12} md={8}>
               <Card>
                 <Card.Body>
-                  <Card.Title className="text-center mb-4">
-                    About Amanda Gray
-                  </Card.Title>
+                 
                   <Card.Text>
                 fsgfsgdf
                 fgsdfg
