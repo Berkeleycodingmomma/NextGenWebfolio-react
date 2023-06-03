@@ -124,7 +124,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 [Click here to watch demo](https://youtu.be/bcppeHN_mD8)
 #
 ## Deployed Application Link:
-[Deployed Application Link](http://localhost:3000/Berkeleycodingmomma/NextGenWebfolio-react/about)
+[Deployed Application Link](https://berkeleycodingmomma.github.io/NextGenWebfolio-react/)
 #
 ## GitHub Repository:
 [GitHub Repository](https://github.com/Berkeleycodingmomma/NextGenWebfolio-react)
