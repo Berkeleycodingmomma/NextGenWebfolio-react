@@ -6,8 +6,7 @@ Cutting-edge portfolio showcasing web development projects built using React.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description.
-The deployed application on GitHub Pages presents Amanda Gray's React Portfolio, featuring six notable projects completed during their 12-week Full-Stack Developer boot camp at the University of Toronto. This single-page application exemplifies Amanda's expertise in developing contemporary web applications.
-
+The challenge is to create a portfolio as a web developer using React. The goal is to showcase my projects and skills using the latest technologies, such as React, to stand out among other developers. The portfolio is deployed on GitHub Pages, following the same instructions used for the module project 20, to make it accessible online.
 
 ## Table of Contents:
 - [Overview](#Overview)
@@ -29,8 +28,7 @@ The main goal of this project is to develop a single-page application portfolio 
 2. Incorporate seamless navigation functionality to effortlessly switch between different sections of the portfolio.
 3. Construct a contact form with robust validation and error handling capabilities.
 4. Integrate links to the developer's resume and various social media profiles for enhanced connectivity.
-
-
+#
 ## Assigned User Story:
 ```
 AS AN employer looking for candidates with experience building single-page applications
@@ -39,6 +37,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 ```
 
 ## Acceptance Criteria:
+
 ```
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
@@ -66,22 +65,69 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
-
-##  React Portfolio GIF:
-### Figure 1. GIF.
-
-#### The following animation demonstrates the application functionality:
-
-
+#
+## Installation Process:
+1. Obtain the project by either cloning the repository from GitHub or downloading the zip folder.
+2. Open the downloaded repository in your preferred source code editor.
+3. Access the integrated terminal of the editor and follow the installation instructions provided under the "Built With" section to ensure proper setup of the cloned documentation.
+#
+## Built With:
+- Dynamic JavaScript
+- How To Create React.md: [Click to Preview Document](./src/documentation/HowToCreateReact.md)
+- JSON: [JSON](https://www.npmjs.com/package/json)
+- Mongoose: [7.0.3](https://www.npmjs.com/package/mongoose)
+- Express: [4.18.2](https://www.npmjs.com/package/express)
+- Node.js: [16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+- MongoDB: [Website](https://www.mongodb.com/)
+- Nodemon: [2.0.12](https://www.npmjs.com/package/nodemon/v/2.0.12)
+- Fontawesome: [6.4.0](https://www.npmjs.com/package/@fortawesome/)
+- dotenv: [16.0.3](https://www.npmjs.com/package/dotenv)
+- GraphQL: [16.6.0](https://www.npmjs.com/package/graphql)
+- JsonWebToken: [9.0.0](https://www.npmjs.com/package/jsonwebtoken))
+- React: [18.2.0](https://www.npmjs.com/package/react)
+- React-Dom: [18.2.0](https://www.npmjs.com/package/react-dom)
+- Mongoose ODM: [7.0.3](https://mongoosejs.com)
+- JWT: [9.0.0](https://jwt.io)
+- Heroku: [Website](https://www.heroku.com/platform)
+- License Badge: [Shields.io](https://shields.io/)
+- Visual Studio Code: [Website](https://code.visualstudio.com/)
+#
 ## Usage Instructions:
 1. Visit the deployed application link to access the live version of the project.
 2. Utilize the navigation titles to seamlessly switch between different sections.
 3. Explore the developer's work samples showcased in the Portfolio section.
 4. Fill out and submit the contact form provided in the Contact section.
 5. Download the developer's resume from the Resume section for further reference.
-
+#
+## React Portfolio Screenshots:
+### Figure 1: Main page (About Me)
+#
+![Screen Shot 2023-06-02 at 9 28 21 PM](https://github.com/Berkeleycodingmomma/NextGenWebfolio-react/assets/127444682/d55def3b-2d25-4d5f-a4d7-2bcbfa29d2ea)
+#
+### Figure 2: Portfolio (click buttons redirects you to Github Repo/deployed link)
+#
+![Screen Shot 2023-06-02 at 9 29 38 PM](https://github.com/Berkeleycodingmomma/NextGenWebfolio-react/assets/127444682/d25f6496-bb17-451e-8d94-3ab26672bfa3)
+#
+### Figure 3: Resume (click the Download button and it redirects you to my resume)
+#
+![Screen Shot 2023-06-02 at 9 29 52 PM](https://github.com/Berkeleycodingmomma/NextGenWebfolio-react/assets/127444682/75bf53b2-49c6-44da-9a88-d04b9cb7c1b5)
+#
+### Figure 4: Contact (fill in the info requested, sends a message or responds with an error message)
+#
+![Screen Shot 2023-06-02 at 9 30 07 PM](https://github.com/Berkeleycodingmomma/NextGenWebfolio-react/assets/127444682/28eecc70-8bb4-48f2-9ffa-2a58b2906ff4)
+#
+## Demo video of project:
+[Click here to watch demo](https://youtu.be/bcppeHN_mD8)
+#
+## Deployed Application Link:
+[Deployed Application Link](http://localhost:3000/Berkeleycodingmomma/NextGenWebfolio-react/about)
+#
+## GitHub Repository:
+[GitHub Repository](https://github.com/Berkeleycodingmomma/NextGenWebfolio-react)
+#
 ## Code Snippets
 #
+
 ```sh
 
 function Portfolio() {
@@ -155,44 +201,6 @@ The App function is the core component that utilizes React Router for navigation
 
 ```
 #
-
-## Deployed GitHub-Pages Application Link:
-[Deployed Application Link:]()
-
-## GitHub Repository:
-[GitHub Repository:](https://github.com/Berkeleycodingmomma/NextGenWebfolio-react)
-
-
-## React Portfolio Screenshots:
-### Figure 1. Deployed Application Screenshot.
-
-
-## Installation Process:
-1. Obtain the project by either cloning the repository from GitHub or downloading the zip folder.
-2. Open the downloaded repository in your preferred source code editor.
-3. Access the integrated terminal of the editor and follow the installation instructions provided under the "Built With" section to ensure proper setup of the cloned documentation.
-
-## Built With:
-- Dynamic JavaScript
-- How To Create React.md: [Click to Preview Document](./src/documentation/HowToCreateReact.md)
-- JSON: [JSON](https://www.npmjs.com/package/json)
-- Mongoose: [7.0.3](https://www.npmjs.com/package/mongoose)
-- Express: [4.18.2](https://www.npmjs.com/package/express)
-- Node.js: [16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
-- MongoDB: [Website](https://www.mongodb.com/)
-- Nodemon: [2.0.12](https://www.npmjs.com/package/nodemon/v/2.0.12)
-- Fontawesome: [6.4.0](https://www.npmjs.com/package/@fortawesome/)
-- dotenv: [16.0.3](https://www.npmjs.com/package/dotenv)
-- GraphQL: [16.6.0](https://www.npmjs.com/package/graphql)
-- JsonWebToken: [9.0.0](https://www.npmjs.com/package/jsonwebtoken))
-- React: [18.2.0](https://www.npmjs.com/package/react)
-- React-Dom: [18.2.0](https://www.npmjs.com/package/react-dom)
-- Mongoose ODM: [7.0.3](https://mongoosejs.com)
-- JWT: [9.0.0](https://jwt.io)
-- Heroku: [Website](https://www.heroku.com/platform)
-- License Badge: [Shields.io](https://shields.io/)
-- Visual Studio Code: [Website](https://code.visualstudio.com/)
-
 ## What I Learned:
 1. Developing a React-based single-page application.
 2. Utilizing React Router for seamless navigation.
