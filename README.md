@@ -7,10 +7,11 @@ Cutting-edge portfolio showcasing web development projects built using React.
 
 ## Description.
 The challenge is to create a portfolio as a web developer using React. The goal is to showcase my projects and skills using the latest technologies, such as React, to stand out among other developers. The portfolio is deployed on GitHub Pages, following the same instructions used for the module project 20, to make it accessible online.
-
-![](./src/images/7homas7he7ank.GIF)
-
-
+#
+## Short Demo Gif of Project:
+#
+![](./src/images/Demo%2C%20cutting-edge%20portfolio%20showcasing%20web%20development%20projects%20built%20using%20React..gif)
+#
 ## Table of Contents:
 - [Overview](#Overview)
 - [The Challenge](#The-Challenge)
