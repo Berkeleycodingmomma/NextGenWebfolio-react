@@ -10,7 +10,9 @@ The challenge is to create a portfolio as a web developer using React. The goal 
 #
 ## Short Demo Gif of Project:
 #
+
 ![](./src/images/Demo%2C%20cutting-edge%20portfolio%20showcasing%20web%20development%20projects%20built%20using%20React..gif)
+
 #
 ## Table of Contents:
 - [Overview](#Overview)
