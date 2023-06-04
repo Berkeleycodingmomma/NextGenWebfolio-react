@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Berkeleycodingmomma/NextGenWebfolio-react/static/css/main.4d3bf0da.css",
-    "main.js": "/Berkeleycodingmomma/NextGenWebfolio-react/static/js/main.0101a06b.js",
-    "static/media/RecipeBox.png": "/Berkeleycodingmomma/NextGenWebfolio-react/static/media/RecipeBox.6b29af8803b4d46ff4f4.png",
-    "static/media/WorkDayPlanner.png": "/Berkeleycodingmomma/NextGenWebfolio-react/static/media/WorkDayPlanner.0836dc55ae5cc7310110.png",
-    "static/media/LifeInTheSaddleBlog.png": "/Berkeleycodingmomma/NextGenWebfolio-react/static/media/LifeInTheSaddleBlog.2faf5837be9f8b73608d.png",
-    "static/media/Weather.png": "/Berkeleycodingmomma/NextGenWebfolio-react/static/media/Weather.04a933cde84a79e2d116.png",
-    "static/media/DirtyDozenTeamProject.png": "/Berkeleycodingmomma/NextGenWebfolio-react/static/media/DirtyDozenTeamProject.548995744097a67483df.png",
-    "static/media/WebAPI.png": "/Berkeleycodingmomma/NextGenWebfolio-react/static/media/WebAPI.65c67dac449502083fee.png",
-    "static/media/amanda_profile.jpg": "/Berkeleycodingmomma/NextGenWebfolio-react/static/media/amanda_profile.96446b7094ff2d5a02e9.jpg",
-    "static/media/amandaResume.pdf": "/Berkeleycodingmomma/NextGenWebfolio-react/static/media/amandaResume.ac8a8653e13639fb6f5d.pdf",
-    "index.html": "/Berkeleycodingmomma/NextGenWebfolio-react/index.html",
-    "main.4d3bf0da.css.map": "/Berkeleycodingmomma/NextGenWebfolio-react/static/css/main.4d3bf0da.css.map",
-    "main.0101a06b.js.map": "/Berkeleycodingmomma/NextGenWebfolio-react/static/js/main.0101a06b.js.map"
+    "main.css": "/NextGenWebfolio-react/static/css/main.4d3bf0da.css",
+    "main.js": "/NextGenWebfolio-react/static/js/main.91fa30e7.js",
+    "static/media/RecipeBox.png": "/NextGenWebfolio-react/static/media/RecipeBox.6b29af8803b4d46ff4f4.png",
+    "static/media/WorkDayPlanner.png": "/NextGenWebfolio-react/static/media/WorkDayPlanner.0836dc55ae5cc7310110.png",
+    "static/media/LifeInTheSaddleBlog.png": "/NextGenWebfolio-react/static/media/LifeInTheSaddleBlog.2faf5837be9f8b73608d.png",
+    "static/media/Weather.png": "/NextGenWebfolio-react/static/media/Weather.04a933cde84a79e2d116.png",
+    "static/media/DirtyDozenTeamProject.png": "/NextGenWebfolio-react/static/media/DirtyDozenTeamProject.548995744097a67483df.png",
+    "static/media/WebAPI.png": "/NextGenWebfolio-react/static/media/WebAPI.65c67dac449502083fee.png",
+    "static/media/amanda_profile.jpg": "/NextGenWebfolio-react/static/media/amanda_profile.96446b7094ff2d5a02e9.jpg",
+    "static/media/amandaResume.pdf": "/NextGenWebfolio-react/static/media/amandaResume.ac8a8653e13639fb6f5d.pdf",
+    "index.html": "/NextGenWebfolio-react/index.html",
+    "main.4d3bf0da.css.map": "/NextGenWebfolio-react/static/css/main.4d3bf0da.css.map",
+    "main.91fa30e7.js.map": "/NextGenWebfolio-react/static/js/main.91fa30e7.js.map"
   },
   "entrypoints": [
     "static/css/main.4d3bf0da.css",
-    "static/js/main.0101a06b.js"
+    "static/js/main.91fa30e7.js"
   ]
 }
