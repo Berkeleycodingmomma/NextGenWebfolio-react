@@ -20,11 +20,11 @@ function App() {
       <Header/>
         <div className="container mt-5">
           <Routes>
-            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/about" element={<About />} />
-            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/portfolio" element={<Portfolio />} />
-            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/contact" element={<Contact />} />
-            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/resume" element={<Resume />} />
-            <Route path="/Berkeleycodingmomma/NextGenWebfolio-react/" element={<About />} />
+            <Route path="/NextGenWebfolio-react/about" element={<About />} />
+            <Route path="/NextGenWebfolio-react/portfolio" element={<Portfolio />} />
+            <Route path="/NextGenWebfolio-react/contact" element={<Contact />} />
+            <Route path="/NextGenWebfolio-react/resume" element={<Resume />} />
+            <Route path="/NextGenWebfolio-react/" element={<About />} />
           </Routes>
         </div>
         <Footer />

@@ -14,7 +14,7 @@ function Header() {
             {/* Page title */}
             <h1 className="text" style={{ fontSize: "70px", color: "white" }}>
               {/* Link to homepage */}
-              <Link to="/Berkeleycodingmomma/NextGenWebfolio-react/" className="name-link">
+              <Link to="/NextGenWebfolio-react/" className="name-link">
                 {"<>"}<span className="name">amanda_gray</span>{"</>"}
               </Link>
             </h1>

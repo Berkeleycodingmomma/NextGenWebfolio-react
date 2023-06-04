@@ -24,28 +24,28 @@ const Navigation = () => {
             {/* About Me Link */}
             <Nav.Link 
               as={Link} 
-              to="/Berkeleycodingmomma/NextGenWebfolio-react/about" 
+              to="/NextGenWebfolio-react/about" 
               className="fs-5 nav-link-highlight shadow-lg">
               About Me
             </Nav.Link>
             {/* Portfolio Link */}
             <Nav.Link 
               as={Link} 
-              to="/Berkeleycodingmomma/NextGenWebfolio-react/portfolio" 
+              to="/NextGenWebfolio-react/portfolio" 
               className="fs-5 nav-link-highlight shadow-lg">
               Portfolio
             </Nav.Link>
             {/* Resume Link */}
             <Nav.Link 
               as={Link} 
-              to="/Berkeleycodingmomma/NextGenWebfolio-react/resume" 
+              to="/NextGenWebfolio-react/resume" 
               className="fs-5 nav-link-highlight shadow-lg ">
               Resume
             </Nav.Link>
             {/* Contact Link */}
             <Nav.Link 
               as={Link} 
-              to="/Berkeleycodingmomma/NextGenWebfolio-react/contact" 
+              to="/NextGenWebfolio-react/contact" 
               className="fs-5 nav-link-highlight shadow-lg ">
               Contact
             </Nav.Link>

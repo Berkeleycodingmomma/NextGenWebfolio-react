@@ -18,22 +18,27 @@ function About() {
               <Image src={avatar} rounded fluid className="about-image" />
             </Col>
             <Col xs={12} md={8}>
-              <Card>
-                <Card.Body>
+              <Card style={{textAlign: "unset"}}>
+                <Card.Body className="d-flex justify-content-flex-start align-items-start" style={{textAlign: "unset"}}>
                  
-                  <Card.Text>
-                  <ul>
-                    <li>I am a hard-working and driven individual who isn't afraid to face a challenge.</li>
-                    <li>I am a passionate about my work and I know how to get the job done.</li>
-                    <li>I am an honest person who doesn't believe in misleading other
-                        people.</li>
-                    <li>I am fair in everything I do.</li>
-                    <li>I am an enthusiastic, self-motivated, reliable, and responsible.</li>
-                    <li>I am a mature team worker and adaptable to all challenging situations.</li>
-                    <li>I am able to work well both in a team environment as well as using own initiative.</li>
-                    <li>I am able to work well under pressure and adhere to strict deadlines.</li>
-                </ul>
-                </Card.Text>
+                  {/* <Card.Text> */}
+                    <section>
+                      <ul>
+                        <li>I am a hard-working and driven insectionidual who isn't afraid to face a challenge.
+                        </li>
+                        <li>I am a passionate about my work and I know how to get the job done. 
+                        </li>
+                        <li>I am an honest person who doesn't believe in misleading other
+                            people.
+                        </li>
+                        <li>I am fair in everything I do.</li>
+                        <li>I am an enthusiastic, self-motivated, reliable, and responsible.</li>
+                        <li>I am a mature team worker and adaptable to all challenging situations.</li>
+                        <li>I am able to work well both in a team environment as well as using own initiative.</li>
+                        <li>I am able to work well under pressure and adhere to strict deadlines.</li>
+                      </ul>
+                    </section>
+                {/* </Card.Text> */}
               </Card.Body>
             </Card>
           </Col>
